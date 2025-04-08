@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Clip Generator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Pregătim descărcarea...</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+      padding: 50px;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      max-width: 500px;
+      margin: auto;
+    }
+    button {
+      padding: 10px 25px;
+      font-size: 16px;
+      margin-top: 20px;
+      background-color: #ff4747;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .emoji {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .donate {
+      margin-top: 40px;
+      background-color: #00c853;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>YouTube Clip Generator</h1>
-        <input type="text" id="youtubeLink" placeholder="Inserează linkul YouTube aici">
-        <button id="generateBtn">Generează Clip</button>
-        <div id="loader" class="loader" style="display: none;"></div>
-        <div id="result"></div>
-    </div>
+  <div class="container">
+    <div class="emoji">🌀</div>
+    <h2>Stai că îl comprimăm... cu gândul 🤯</h2>
+    <p>Uneori cel mai rapid mod de a descărca e... să renunți 😅</p>
+    <button onclick="window.location.href='https://youtu.be/dQw4w9WgXcQ'">Glume deoparte, iată ce căutai</button>
 
-    <script src="script.js"></script>
+    <div class="donate-section">
+      <p style="margin-top: 40px;">Ți-a plăcut site-ul? Susține-l cu o donație 💖</p>
+      <button class="donate" onclick="window.open('https://vanosa7777.github.io/youtube-clip-generato/', '_blank')">💸 Donează un suc pentru creator</button>
+    </div>
+  </div>
 </body>
 </html>
